@@ -9,19 +9,19 @@ const NODOS: Nodo[] = [
     {
         id: 'laravel',
         nombre: 'Nodo Laravel',
-        url: 'http://hazahart.tailad6c60.ts.net:8001/nodo_blockchain/public',
+        url: 'http://hazahart.tailad6c60.ts.net:8001/nodo-laravel/public',
         color: '#7F77DD',
     },
     {
-        id: 'express',
-        nombre: 'Nodo Express',
-        url: 'http://100.x.x.x:8002',
+        id: 'Next',
+        nombre: 'Nodo Next',
+        url: 'http://100.85.161.96:8001',
         color: '#1D9E75',
     },
     {
-        id: 'next',
-        nombre: 'Nodo Next',
-        url: 'http://100.x.x.x:8003',
+        id: 'Express',
+        nombre: 'Nodo Express',
+        url: 'http://100.72.110.89:8002',
         color: '#D85A30',
     },
 ];
