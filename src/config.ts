@@ -9,7 +9,7 @@ const NODOS: Nodo[] = [
     {
         id: 'laravel',
         nombre: 'Nodo Laravel',
-        url: 'http://nodo-blockchain.test',
+        url: 'http://hazahart.tailad6c60.ts.net:8001/nodo_blockchain/public',
         color: '#7F77DD',
     },
     {

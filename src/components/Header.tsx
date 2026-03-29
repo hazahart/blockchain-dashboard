@@ -19,8 +19,8 @@ export default function Header({ tab, setTab }: Props) {
                 <div className="header-title">
                     <div className="header-logo">⬡</div>
                     <div>
-                        <h1>Red Blockchain</h1>
-                        <span className="header-sub">Grados Académicos Distribuidos</span>
+                        <h1>Examen de Tópicos Avanzados de Desarrollo Web - Red Blockchain</h1>
+                        <span className="header-sub">Grados Académicos</span>
                     </div>
                 </div>
                 <div className="nodos-status">
