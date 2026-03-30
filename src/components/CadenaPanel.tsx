@@ -55,7 +55,9 @@ export default function CadenaPanel() {
                         <div className="nodo-seccion-header" style={{ borderLeftColor: nodo.color }}>
                             <h3>{nodo.nombre}</h3>
                             {data && !data.error && (
-                                <span className="badge">{data.longitud} bloques</span>
+                                <span className="badge">
+                                    {data.longitud ?? data.chain?.length ?? (data as any).length ?? 0} bloques
+                                </span>
                             )}
                             {data?.error && <span className="badge error">Sin conexión</span>}
                         </div>
