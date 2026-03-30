@@ -19,8 +19,8 @@ export const getNodoApi = (url: string) => ({
     getProgramas: () =>
         axios.get(`${url}/api/programas`).then(r => r.data),
 
-    mine: () =>
-        axios.post(`${url}/api/mine`).then(r => r.data),
+    mine: () => 
+        axios.post(`${url}/api/mine`, {}).then(r => r.data),
 
     resolve: () =>
         axios.get(`${url}/api/nodes/resolve`).then(r => r.data),

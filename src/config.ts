@@ -9,7 +9,7 @@ const NODOS: Nodo[] = [
     {
         id: 'laravel',
         nombre: 'Nodo Laravel',
-        url: 'http://hazahart.tailad6c60.ts.net:8001/nodo-laravel/public',
+        url: 'http://100.100.33.13:8001/nodo-laravel/public',
         color: '#7F77DD',
     },
     {

@@ -21,7 +21,17 @@ export default function MinadoPanel() {
             const data = await getNodoApi(nodo.url).mine();
             set(nodo.id, { minando: false, minado: { ok: true, data } });
         } catch (e: any) {
-            set(nodo.id, { minando: false, minado: { ok: false, msg: e.message } });
+            if (e.response && e.response.status === 400) {
+                set(nodo.id, { 
+                    minando: false, 
+                    minado: { ok: true, msg: 'Cola vacía: No hay nada por minar' }
+                });
+            } else {
+                set(nodo.id, { 
+                    minando: false, 
+                    minado: { ok: false, msg: e.message } 
+                });
+            }
         }
     };
 
